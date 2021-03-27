@@ -1,0 +1,37 @@
+.infoBox{
+  flex: 1;
+  cursor: pointer;
+
+  &:not(:last-child){
+    margin-right: 20px;
+  }
+
+  &--cases{
+    border-top: 10px solid crimson;
+  }
+
+  &--recovered{
+    border-top: 10px solid green;
+  }
+
+  &--deaths{
+    border-top: 10px solid black;
+  }
+
+  &__cases{
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__total{
+    color: black;
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem;
+  }
+
+  &__title{
+    font-size: 1rem !important;
+    margin: 0.5rem 0!important;
+  }
+}
