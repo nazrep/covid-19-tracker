@@ -5,9 +5,6 @@ import numeral from "numeral";
 import "leaflet/dist/leaflet.css";
 
 const options = {
-  style:{
-    height: 400
-  },
   legend: {
     display: false,
   },
